@@ -63,7 +63,8 @@ class _WebViewStackState extends State<WebViewStack> {
       ],
     );
   }
-   Set<JavascriptChannel> _createJavascriptChannels(BuildContext context) {
+
+  Set<JavascriptChannel> _createJavascriptChannels(BuildContext context) {
     return {
       JavascriptChannel(
         name: 'SnackBar',
